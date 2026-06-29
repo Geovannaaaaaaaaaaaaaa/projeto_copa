@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 from google.oauth2 import service_account
-from google.cloud.bigquery import bigquery
+from google.cloud import bigquery
 
 st.header("Indicadores") 
 
